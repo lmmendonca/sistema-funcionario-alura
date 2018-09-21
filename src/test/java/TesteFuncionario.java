@@ -14,19 +14,21 @@ public class TesteFuncionario {
     }
 
     @Test
-    public void testaFuncionarioTipo1() {
-        Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
+    public void testaFuncionarioTipoGerente() {
+        Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
 
-        funcionario.setTipo(1);
-        Assertions.assertEquals(2500.50,funcionario.getBonificacao());
+        Assertions.assertEquals("Leonardo",gerente.getNome());
+        Assertions.assertEquals("08662040918",gerente.getCpf());
+        Assertions.assertEquals(2500.50,gerente.getSalario());
+        Assertions.assertEquals(2500.50,gerente.getBonificacao());
     }
 
     @Test
-    public void testaFuncionarioTipoGerente() {
-        Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
+    public void testaAutenticacaoGerente() {
+        Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
 
-        funcionario.setTipo(2);
-        Assertions.assertEquals(3500.50,funcionario.getBonificacao());
+        Assertions.assertTrue(gerente.autentica(123));
+        Assertions.assertFalse(gerente.autentica(321));
     }
 
 }

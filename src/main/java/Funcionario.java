@@ -3,8 +3,6 @@ public class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
-    private int tipo;
-
 
     public Funcionario(String nome, String cpf, double salario) {
         this.nome = nome;
@@ -37,17 +35,7 @@ public class Funcionario {
     }
 
     public double getBonificacao(){
-        if (this.tipo == 0) return this.salario * 0.1;
-        if (this.tipo == 1) return this.salario;
-        return this.salario + 1000.0;
-    }
-
-    public int getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(int tipo) {
-        this.tipo = tipo;
+        return this.salario * 0.1;
     }
 
 }

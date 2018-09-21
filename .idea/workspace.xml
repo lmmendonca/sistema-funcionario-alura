@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acd4b276-0a86-4bf7-b140-eca0088b2a74" name="Default Changelist" comment="" />
+    <list default="true" id="acd4b276-0a86-4bf7-b140-eca0088b2a74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteFuncionario.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,19 +49,68 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="1177386517">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Gerente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TesteFuncionario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +136,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteFuncionario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Gerente.java" />
       </list>
     </option>
   </component>
@@ -102,47 +159,55 @@
     <option name="width" value="959" />
     <option name="height" value="1052" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LeonardoProjectJava3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeonardoProjectJava3" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema-funcionario-alura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sistema-funcionario-alura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -156,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537478170983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537545736865" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sistema-banco-alura" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -177,8 +242,18 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TesteFuncionario">
+    <configuration name="All in LeonardoProjectJava3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeonardoProjectJava3" />
+      <module name="Leonardo-Project-Java3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteFuncionario" />
       <method v="2">
@@ -197,11 +272,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TesteFuncionario.testaFuncionario" />
+      <item itemvalue="JUnit.All in LeonardoProjectJava3" />
       <item itemvalue="JUnit.TesteFuncionario" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TesteFuncionario" />
+        <item itemvalue="JUnit.All in LeonardoProjectJava3" />
         <item itemvalue="JUnit.TesteFuncionario.testaFuncionario" />
       </list>
     </recent_temporary>
@@ -242,13 +319,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3619000" />
+    <option name="totallyTimeSpent" value="4208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1052" extended-state="4" />
-    <editor active="true" />
+    <frame x="961" y="0" width="949" height="1053" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20598006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,12 +362,31 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Gerente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TesteFuncionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -300,8 +395,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
