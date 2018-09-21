@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 public class TesteFuncionario {
 
     @Test
-    public void criaFuncionarioeValidaAtributos() {
-        Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
+    public void criaFuncionarioDesignerValidaAtributos() {
+        Designer designer = new Designer("Leonardo", "08662040918", 2500.50);
 
-        Assertions.assertEquals("Leonardo",funcionario.getNome());
-        Assertions.assertEquals("08662040918",funcionario.getCpf());
-        Assertions.assertEquals(2500.50,funcionario.getSalario());
-        Assertions.assertEquals(250.05,funcionario.getBonificacao());
+        Assertions.assertEquals("Leonardo",designer.getNome());
+        Assertions.assertEquals("08662040918",designer.getCpf());
+        Assertions.assertEquals(2500.50,designer.getSalario());
+        Assertions.assertEquals(250.05,designer.getBonificacao());
     }
 
     @Test
@@ -34,11 +34,11 @@ public class TesteFuncionario {
     @Test
     public void cadastraFuncionariosValidaValorTotalBonificacaoSerPaga(){
         Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
-        Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
+        Designer designer = new Designer("Leonardo", "08662040918", 2500.50);
         ControleBonificacao controleBonificacao = new ControleBonificacao();
 
         controleBonificacao.registra(gerente);
-        controleBonificacao.registra(funcionario);
+        controleBonificacao.registra(designer);
 
         Assertions.assertEquals(2750.55, controleBonificacao.getSoma());
 
