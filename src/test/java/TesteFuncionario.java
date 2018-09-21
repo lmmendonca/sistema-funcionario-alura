@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class TesteFuncionario {
 
     @Test
-    public void testaFuncionario() {
+    public void criaFuncionarioeValidaAtributos() {
         Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
 
         Assertions.assertEquals("Leonardo",funcionario.getNome());
@@ -14,7 +14,7 @@ public class TesteFuncionario {
     }
 
     @Test
-    public void testaFuncionarioTipoGerente() {
+    public void criaFuncionarioGerenteValidaAtributos() {
         Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
 
         Assertions.assertEquals("Leonardo",gerente.getNome());
@@ -24,11 +24,24 @@ public class TesteFuncionario {
     }
 
     @Test
-    public void testaAutenticacaoGerente() {
+    public void autenticacaoGerente() {
         Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
 
         Assertions.assertTrue(gerente.autentica(123));
         Assertions.assertFalse(gerente.autentica(321));
+    }
+
+    @Test
+    public void cadastraFuncionariosValidaValorTotalBonificacaoSerPaga(){
+        Gerente gerente = new Gerente("Leonardo", "08662040918", 2500.50, 123);
+        Funcionario funcionario = new Funcionario("Leonardo", "08662040918", 2500.50);
+        ControleBonificacao controleBonificacao = new ControleBonificacao();
+
+        controleBonificacao.registra(gerente);
+        controleBonificacao.registra(funcionario);
+
+        Assertions.assertEquals(2750.55, controleBonificacao.getSoma());
+
     }
 
 }
